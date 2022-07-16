@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Document</title>
+
+
+
+</head>
+
+<body>
+
+<div id="msg"></div>
+
+</body>
+
+</html>
+
+
+
+<script>
+
+
+
+    const student = {
+    
+    id: 1,
+    
+    name: "Thanh",
+    
+    showDetail: function(){
+    
+    console.log(`${this.id} ${this.name}`)
+    
+    }
+    
+    }
+    
+    
+    
+    const s2 = {
+    
+    id: 2,
+    
+    name: "Toan"
+    
+    }
+    
+    
+    
+    student.showDetail.apply(s2)
+    
+    
+    
+    </script>
